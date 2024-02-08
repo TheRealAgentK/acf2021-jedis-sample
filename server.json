@@ -1,5 +1,10 @@
 {
+    "name":"jedis-sample-acf2021",
+    "version":"1.0.0",
     "app":{
         "cfengine":"adobe@2021"
+    },
+    "scripts":{
+        "onServerStart":"cfpm install chaching"
     }
 }
